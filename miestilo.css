@@ -1,0 +1,122 @@
+/* body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cont-parrafo-1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cont-parrafo-2 {
+    text-align: center;
+    color: #333;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+    margin: 0 5rem;
+}
+
+footer {
+    background-color: #4caf50; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0; 
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+
+.footer-content a svg {
+    height: 100%;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 4px;
+}
+
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+}
+
+.cont-logo img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+.txt-principal {
+    color: green;
+    font-size: 1.2rem;   
+}
+
+p {
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.cont-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.cont-img img {
+    border-radius: 1rem;
+    border: 2px solid green;
+}
